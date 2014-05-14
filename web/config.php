@@ -1,5 +1,6 @@
 <?php
-/**
+/*
+ * author       Thanh Pham
  * config.php   config for stripe
  */
 

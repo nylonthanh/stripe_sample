@@ -24,11 +24,11 @@
   //charge 50 for testing
   $charge = Stripe_Charge::create(array(
       'customer' => $customer->id,
-      'amount'   => 5000,
+      'amount'   => 10000,
       'currency' => 'usd'
   ));
 
-  echo '<h1>Successfully charged $50.00!</h1>';
+  echo '<h1>Successfully charged $100.00!</h1>';
 
   function sanitize_input($input) {
     $input['access']       = filter_var(trim($input['access']),      FILTER_SANITIZE_STRING);
